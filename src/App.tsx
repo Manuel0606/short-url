@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import ShortUrl from './pages/ShortUrl'
 
-function App() {
-  const [url, setUrl] = useState('')
-
+function App () {
   return (
     <>
-      
+      <ShortUrl />
     </>
   )
 }
